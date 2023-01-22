@@ -1,0 +1,29 @@
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: inline-block;
+    width: 125px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #000;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+
+    a {
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

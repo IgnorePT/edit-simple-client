@@ -1,0 +1,22 @@
+.login-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    .tabs{
+        display: flex;
+
+        span{
+            padding: 10px 25px;
+            cursor: pointer;
+            
+            &.active{
+                border-bottom: 2px solid black;
+            }
+        }
+
+       
+    }
+}
+
